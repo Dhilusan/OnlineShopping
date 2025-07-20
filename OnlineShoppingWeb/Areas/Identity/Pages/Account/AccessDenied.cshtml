@@ -1,0 +1,14 @@
+﻿@page
+@using OnlineShopping.Models
+@using OnlineShopping.Models.ViewModels
+@using OnlineShopping.Utility
+@using OnlineShoppingWeb.Areas.Identity.Pages.Account
+@model AccessDeniedModel
+@{
+    ViewData["Name"] = "Access denied";
+}
+
+<header>
+    <h1 class="text-danger">@ViewData["Name"]</h1>
+    <p class="text-danger">You do not have access to this resource.</p>
+</header>
